@@ -1,0 +1,2 @@
+# Optional: only needed for the demo UI (app.py)
+streamlit==1.32.0

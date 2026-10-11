@@ -1,0 +1,21 @@
+# secrets
+.env
+*.env
+!.env.example
+key.env
+
+# local caches / build artefacts
+.cache/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# competition data and generated outputs (not redistributed)
+*.png
+*.jpg
+*.jpeg
+*.zip
+*.mp4
+audit/
+output/
