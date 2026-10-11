@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="320" viewBox="0 0 1200 320" role="img" aria-labelledby="t d">
+  <title id="t">Bijli Buddy: Utility Bill Decoder</title>
+  <desc id="d">AI assistant that reads Pakistani electricity bills, checks the maths and explains them in plain English. WTQ Build Track 2026.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#3D1766"/>
+      <stop offset="0.55" stop-color="#5B2A86"/>
+      <stop offset="1" stop-color="#7B4BB0"/>
+    </linearGradient>
+    <linearGradient id="bolt" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#FFE066"/>
+      <stop offset="1" stop-color="#F5C518"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="320" rx="24" fill="url(#bg)"/>
+
+  <!-- lavender decorative circles -->
+  <circle cx="1080" cy="40" r="140" fill="#B9A5E8" opacity="0.18"/>
+  <circle cx="1150" cy="290" r="90" fill="#E6DDF8" opacity="0.14"/>
+  <circle cx="60" cy="300" r="70" fill="#B9A5E8" opacity="0.15"/>
+
+  <!-- bill card with lightning bolt -->
+  <g transform="translate(905 70)">
+    <rect width="190" height="190" rx="22" fill="#FFFFFF"/>
+    <rect x="22" y="26" width="110" height="12" rx="6" fill="#E6DDF8"/>
+    <rect x="22" y="50" width="146" height="10" rx="5" fill="#E6DDF8"/>
+    <rect x="22" y="68" width="120" height="10" rx="5" fill="#E6DDF8"/>
+    <rect x="22" y="148" width="80" height="18" rx="9" fill="#2E9E5B"/>
+    <text x="62" y="161" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="700" fill="#FFFFFF">✓ checked</text>
+    <path d="M118 84 L88 134 L110 134 L98 176 L142 116 L118 116 L132 84 Z" fill="url(#bolt)" stroke="#5B2A86" stroke-width="3" stroke-linejoin="round"/>
+  </g>
+
+  <!-- event tag -->
+  <rect x="64" y="52" width="250" height="32" rx="16" fill="#F5C518"/>
+  <text x="189" y="74" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#3D1766" letter-spacing="1">WTQ BUILD TRACK · 2026</text>
+
+  <!-- title -->
+  <text x="64" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="60" font-weight="800" fill="#FFFFFF">Bijli Buddy</text>
+  <path d="M432 94 L410 128 L425 128 L417 158 L449 117 L433 117 L444 94 Z" fill="url(#bolt)" stroke="#3D1766" stroke-width="2" stroke-linejoin="round"/>
+  <text x="66" y="192" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="600" fill="#E6DDF8">Utility Bill Decoder · K-Electric · LESCO · IESCO</text>
+
+  <!-- tagline -->
+  <text x="66" y="240" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" fill="#FFFFFF">Reads your electricity bill, double-checks the maths, explains it in plain English.</text>
+
+  <!-- verify then trust pill -->
+  <rect x="64" y="262" width="214" height="30" rx="15" fill="#2E9E5B"/>
+  <text x="171" y="283" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#FFFFFF">verify, then trust</text>
+</svg>
